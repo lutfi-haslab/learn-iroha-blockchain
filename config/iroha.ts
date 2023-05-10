@@ -40,8 +40,8 @@ export const signer = new Signer(accountId, keyPair);
 export const toriiRequirements: ToriiRequirementsForApiHttp &
   ToriiRequirementsForApiWebSocket &
   ToriiRequirementsForTelemetry = {
-  apiURL: "http://103.183.75.63:8080", //"http://127.0.0.1:8080"
-  telemetryURL: "http://103.183.75.63:8180", //"http://127.0.0.1:8180"
+  apiURL: `${process.env.IROHA_SERVER}:8080`, //"http://127.0.0.1:8080"
+  telemetryURL: `${process.env.IROHA_SERVER}:8180`, //"http://127.0.0.1:8180"
   ws: WS,
   // type assertion is acceptable here
   // you can pass `undiciFetch` here as well
