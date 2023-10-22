@@ -177,7 +177,7 @@
   dependencies:
     browser-headers "^0.4.0"
 
-"@iroha2/client@^5.0.0":
+"@iroha2/client@5.0.0":
   version "5.0.0"
   resolved "https://nexus.iroha.tech/repository/npm-group/@iroha2/client/-/client-5.0.0.tgz#409662ccf717ef870dea7dd527f0e9a3b46fdc09"
   integrity sha512-7T26+G/QXNbXpHyeRPUA4kl/D4frcvf08W3zKMzTVasfwMIiR1oKQQGD+bVRy9fIVVBzemYN++RTmOeaCyYd9A==
@@ -225,7 +225,7 @@
   resolved "https://nexus.iroha.tech/repository/npm-group/@iroha2/crypto-util/-/crypto-util-0.1.0.tgz#6fbae765c24939a28135dddca32c4b53ce7bd236"
   integrity sha512-4Jad8quSbVLVvq0jZDzcbt47ojKsnyjHGkrC8fexnMJfojezS11tICbqF+2sX69t/A7UWmQ6Amz0Uhkkqk3p3w==
 
-"@iroha2/data-model@5.0.0", "@iroha2/data-model@^5.0.0":
+"@iroha2/data-model@5.0.0":
   version "5.0.0"
   resolved "https://nexus.iroha.tech/repository/npm-group/@iroha2/data-model/-/data-model-5.0.0.tgz#79660ccf481d9de8754c627edc6e5b049bc5f24e"
   integrity sha512-mfSB/L2Aoi6Oz2kumfiScNELrfjjLoOg5I0koTYdBt20GMv8TlL40VszZWe1a+Mo2OcmcceJMkciGBmjKWu7Nw==
@@ -663,10 +663,10 @@ debug@^4.0.0, debug@^4.3.4:
   dependencies:
     ms "2.1.2"
 
-dotenv@^16.0.3:
-  version "16.0.3"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.3.tgz#115aec42bac5053db3c456db30cc243a5a836a07"
-  integrity sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==
+dotenv@^16.3.1:
+  version "16.3.1"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.3.1.tgz#369034de7d7e5b120972693352a3bf112172cc3e"
+  integrity sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==
 
 ed25519.js@^1.3.0:
   version "1.3.0"

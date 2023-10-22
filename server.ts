@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import Fastify, { FastifyInstance, RouteShorthandOptions } from 'fastify'
 import cors from '@fastify/cors'
 import pino from 'pino';
